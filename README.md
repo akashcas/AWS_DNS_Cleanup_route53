@@ -5,7 +5,6 @@ Cleaning up AWS DNS which are currently not in use.
 
 code is tested for ```python 2.7```
 ```
-pip install json
 pip install subprocess
 pip install awscli
 pip install os
