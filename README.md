@@ -7,7 +7,6 @@ code is tested for ```python 2.7```
 ```
 pip install subprocess
 pip install awscli
-pip install os
 ```
 
 Befor running the code make sure you have configure your aws cli. To configure ```AWScli``` run below command on terminal  :
