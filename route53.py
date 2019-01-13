@@ -96,3 +96,10 @@ for x in range(number_hosted_zone):
 					file = open("A.txt", "a+")
 					file.write(DNSName+","+Name+ '\n')
 					file.close()
+	# stop = time.time()
+	# print(stop-start)
+				# print "\t"+ Name +"\t"+ types +"\t"+ DNSName
+unused="cat Dns_Not_in_use.txt | wc -l | xargs echo"
+unused=check_output(unused, shell=True).strip()
+print "\nTotal number of unused DNS in your AWS route53 are : " + str(unused)
+print "To get the list of all the unsed DNS check Dns_Not_in_use.txt"
