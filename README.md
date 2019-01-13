@@ -1,9 +1,16 @@
 # AWS_DNS_Cleanup
 Cleaning up AWS DNS which are currently not in use.
 
+
+
 ### Requirments 
 
+``` 
+MAKE SURE YOU HAVE DEFAULT REGION DEFINED IN YOUR AWSCLI CONFIGURATION. IF NOT SURE CHECK BY TYPING AWS CONFIGURE
+```
+
 code is tested for ```python 2.7```
+
 ```
 pip install subprocess
 pip install awscli
